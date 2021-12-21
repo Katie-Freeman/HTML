@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(134, 182, 134);
+    margin: 0
+}
+header {
+    background-color: black;
+    padding:1px;
+    width: 100%; 
+    text-align: center;
+    color:rgb(134, 182, 134)
+}
+
+header h2 {
+    margin: 0 0 0 35%;
+    font-family:monospace;
+    font-size: 26px;
+
+}
+
+.outer-container {
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px 0px 1px 0px;
+    width: 80%;
+    margin: 20px auto 0px auto;
+    
+}
+
+.wrapper {
+    /* invisible wrapper around bricks */
+}
+
+.row {
+
+}
+
+.cell {
+   height: 20px; 
+   width: 73px;
+   display: inline-block;
+   background-color: black;
+}
+
+.red {
+    background-color: red;
+
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+} 
+
+.ball {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.paddle {
+    width: 130px;
+    height: 15px;
+    background-color:rgb(134, 182, 134);
+    margin: 100px auto 1px auto;
+
+
+
+}
