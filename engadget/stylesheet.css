@@ -1,0 +1,76 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: stretch;
+    background-color: black;
+    color: white;
+}
+#menu div {
+    padding: 10px;
+}
+
+#menu nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+#container {
+    display:flex;
+    flex-direction: column;
+    
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 5px;
+
+}
+.item{
+    width: 200px;
+    height: 100px;
+}
+
+#deal img{
+    align-items: stretch;
+    width: 100%;
+    
+}
+
+@media (max-width:480px){
+    body{ background-color: green;
+    } 
+    #deal {
+        display:none;
+    }
+    #menu {
+        justify-content: center;
+    }
+    #menu nav {
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+        max-width: 200px;
+
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body{
+        background-color:orange ;
+    }
+
+  }
+
+@media (min-width: 1280px) {
+    body{
+        background-color: purple;
+    
+    }
+}
